@@ -13,11 +13,10 @@ const BarGraph = ({ data }) => {
   console.log(data)
   const getData = () => {
     let result = [];
-    for (var i in data.label) {
+    for (const i in data.label) {
       result.push({
         name: data.label[i],
         news: data.news[i],
-        // twitter: data.twitter[i],
         reddit: data.reddit[i],
         youtube: data.youtube[i],
       });

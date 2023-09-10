@@ -12,25 +12,7 @@ const PageTitle = ({ name }) => {
             {moment().format("L")}
           </Text>
         </VStack>
-        {/* {selected_stock.map((item, i) => (
-          <Tag
-            size="lg"
-            key={i}
-            borderRadius="full"
-            variant="outline"
-            colorScheme="green"
-            m={2}
-          >
-            <TagLabel>{item}</TagLabel>
-            <TagCloseButton
-              onClick={() => {
-                let a = [...selected_stock];
-                a = a.filter((tag) => tag !== item);
-                dispatch(SET_STOCK(a));
-              }}
-            />
-          </Tag>
-        ))} */}
+
       </HStack>
     </div>
   );

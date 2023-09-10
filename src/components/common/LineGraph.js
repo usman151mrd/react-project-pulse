@@ -12,17 +12,16 @@ const LineGraph = ({ data, type = "all" }) => {
   const getData = () => {
     let result = [];
     if (type === "all") {
-      for (var i in data.label) {
+      for (const i in data.label) {
         result.push({
           name: data.label[i],
           news: data.news[i],
-          // twitter: data.twitter[i],
           reddit: data.reddit[i],
           youtube: data.youtube[i],
         });
       }
     } else {
-      for (var j in data.label) {
+      for (const j in data.label) {
         result.push({
           name: data.label[j],
           [Object.keys(data)[1]]: data[Object.keys(data)[1]][j],
@@ -48,7 +47,6 @@ const LineGraph = ({ data, type = "all" }) => {
           bottom: 5,
         }}
       >
-        {/* <CartesianGrid strokeDasharray="3 3" /> */}
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
@@ -61,7 +59,6 @@ const LineGraph = ({ data, type = "all" }) => {
               stroke="#1877f2"
               activeDot={{ r: 8 }}
             />
-            {/*<Line type="monotone" dataKey="twitter" stroke="#1da1f2" />*/}
             <Line type="monotone" dataKey="youtube" stroke="#FF0000" />
             <Line type="monotone" dataKey="reddit" stroke="#ff5722" />
           </>

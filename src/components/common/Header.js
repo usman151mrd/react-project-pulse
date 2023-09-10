@@ -6,7 +6,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import PageTitle from "./PageTitle";
 import TagsModal from "../RightPanels/Dashboard/components/TagsModal";
 
 const Header = () => {
