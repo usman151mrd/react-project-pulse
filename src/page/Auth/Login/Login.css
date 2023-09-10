@@ -1,0 +1,132 @@
+@media only screen and (max-width: 2560px) {
+  /* For mobile phones: */
+  .login .title {
+    font-size: 3rem !important;
+  }
+  .login .sub-title,
+  .login .css-1im8u43,
+  .login .css-18lgc6i {
+    font-size: 1.75rem !important;
+  }
+
+  .login .css-1im8u43 {
+    margin-block: 18px !important;
+    padding: 24px !important;
+  }
+
+  .login .css-hqxn2b {
+    width: 75%;
+    padding: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 2050px) {
+  /* For mobile phones: */
+  .login .title {
+    font-size: 2.5rem !important;
+  }
+  .login .sub-title,
+  .login .css-1im8u43,
+  .login .css-18lgc6i {
+    font-size: 1.5rem !important;
+  }
+
+  .login .css-1im8u43 {
+    margin-block: 18px !important;
+    padding: 20px !important;
+  }
+
+  .login .css-hqxn2b {
+    width: 75%;
+    padding: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  /* For mobile phones: */
+  .login img {
+    width: 40% !important;
+  }
+  .login .sub-title,
+  .login .css-1im8u43,
+  .login .css-18lgc6i {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  .login img {
+    width: 50% !important;
+  }
+  .login .title {
+    font-size: 1.75rem !important;
+  }
+  .login .sub-title {
+    font-size: 12px !important;
+  }
+  .login .css-hqxn2b {
+    width: 80%;
+  }
+  .login .css-1im8u43 {
+    margin-block: 10px !important;
+    padding: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .login img {
+    width: 45% !important;
+  }
+  .login .title {
+    font-size: 1.5rem !important;
+  }
+  .login .sub-title {
+    font-size: 10px !important;
+  }
+  .login .css-1im8u43,
+  .login .css-18lgc6i {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  /* For mobile phones: */
+  .login .css-hqxn2b {
+    width: 100% !important;
+  }
+  .login img {
+    display: none !important;
+  }
+  .login .css-6iirnt {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+  .login .css-1im8u43 {
+    margin-block: 7px !important;
+    padding-left: 12px !important;
+  }
+  .login .title {
+    font-size: 1.5rem !important;
+  }
+  .login .sub-title {
+    font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  .login .title {
+    font-size: 1.25rem !important;
+  }
+  .login .sub-title {
+    font-size: 10.5px !important;
+  }
+  .login .css-hqxn2b {
+    width: 90% !important;
+    justify-content: center !important;
+  }
+}

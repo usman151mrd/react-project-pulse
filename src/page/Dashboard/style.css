@@ -1,0 +1,86 @@
+.left-side-panel {
+  height: 100vh;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.right-side-panel {
+  margin-left: 14% !important;
+  width: 80vw;
+  flex-grow: 1;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e454d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5f6975;
+}
+
+@media screen and (min-width: 1600px) {
+  .left-side-panel {
+    width: 10% !important;
+    padding-top: 8%;
+  }
+  .right-side-panel {
+    margin-left: 10% !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .left-side-panel {
+    width: 12%;
+    padding-top: 4% !important;
+  }
+  .right-side-panel {
+    margin-left: 12% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .left-side-panel {
+    width: 16%;
+  }
+  .right-side-panel {
+    margin-left: 16% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-side-panel {
+    width: 20% !important;
+  }
+  .right-side-panel {
+    margin-left: 20% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .left-side-panel {
+    width: 100%;
+    height: auto;
+    position: unset;
+  }
+  .right-side-panel {
+    margin-left: unset;
+  }
+}

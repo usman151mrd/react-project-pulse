@@ -1,0 +1,24 @@
+.tabs .MuiPaginationItem-root {
+  color: #ffff !important;
+}
+
+.tabs .youtube .MuiPaginationItem-page.Mui-selected {
+  background-color: #ff0000;
+}
+.tabs .twitter .MuiPaginationItem-page.Mui-selected {
+  background-color: #1da1f2;
+}
+.tabs .reddit .MuiPaginationItem-page.Mui-selected {
+  background-color: #ff5722;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+}
+
+@media only screen and (max-width: 425px) {
+  /* For mobile phones: */
+  [class*="fixed-issues"] {
+    width: 100%;
+  }
+}
